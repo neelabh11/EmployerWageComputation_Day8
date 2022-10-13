@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            PartTime par = new PartTime();
-            par.CalculatePartTime();
+            Switch @switch = new Switch();
+            @switch.SwitchProb();
         }
     }
 }
