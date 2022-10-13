@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            Switch @switch = new Switch();
-            @switch.SwitchProb();
+            WagesForMonth wages = new WagesForMonth();
+            wages.CalculateWages();
         }
     }
 }
